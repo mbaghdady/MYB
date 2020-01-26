@@ -117,3 +117,12 @@ h4 {
 	color:aliceblue;
 	padding: 20px;
 }
+
+hr {
+	border: dotted 10px;
+	border-bottom: none;
+	margin: auto 35% 50px 35%;
+	border-color: #e5dfdf;
+	
+	
+}
