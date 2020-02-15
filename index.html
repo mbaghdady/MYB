@@ -6,14 +6,19 @@
 	<title>Mohamed Baghdady</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="CSS/styles.css">
+
 	<link rel="icon" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Arimo|Bangers|Gochi+Hand&display=swap" rel="stylesheet">
+
+	<!--	fontawsem-->
+	<script src="https://kit.fontawesome.com/ffe24bc0a8.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
 	<nav class="navigation navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">MBaghdady</a>
+		<a class="navbar-brand" href="#">MYB</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -26,26 +31,32 @@
 			</div>
 		</div>
 	</nav>
-	<div class="topContainer" id="C1">
-		<!--<img class="top-cloud" src="images/cloud.png" alt="cloud-img">-->
-		<h1>Mohamed Youssry Baghdady</h1>
-		<h3 class="subtitle">Accountant & Programmer</h3>
-		<!--<img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-		<img src="images/mountain.png" alt="mountain-img">-->
-	</div>
-	
-	<div class="middle-container" id="C2">
-	<hr>
-		<div class="profile">
+	<div class="row topContainer" id="C1">
+		<div class="col-lg-8 personName">
+			<h1><strong>MOHAMED BAGDHADY</strong></h1>
+			<h3 class="subtitle">Accountant & Web Developer</h3>
+			<h6>Bachelor of English Accounting 2009 <br>Alexandria University, EGYPT</h6>
+		</div>
+		<div class="col-lg-4 pic">
 			<img class="profilePic" src="Images/1.jpg" alt="profile-pic">
+		</div>
+	</div>
+
+	<div class="middle-container" id="C2">
+
+		<div class="profile">
+
 			<h2>PERSONAL SUMMARY </h2>
+			<i class="fas fa-user-tie"></i>
 			<p class="personal-paragraph">I am Mohamed Baghdady, 32 years old, An enthusiastic, self-motivated and highly organized individual with all round bookkeeping experience. Having an excellent working knowledge of double entry bookkeeping, managing accounts, maintaining a sales ledger, raising invoices, issuing regular statements, processing receipts and keep track of Value Added Tax (“VAT”) and Withholding Tax (“WHT”) related transactions along with periodic filing of VAT and WHT returns in compliance with Kingdom of Saudi Arabia regulations. Easy going by nature but focused enough to take responsibility for reconciliation of all ledgers, accruals & prepayments, settlement of suppliers and generate payment runs. Presently looking for a suitable bookkeeping position. </p>
 		</div>
-		<hr>
+
 		<div class="skills" id="C3">
+
 			<h2>WORK EXPERIENCE</h2>
+			<i class="fas fa-graduation-cap"></i>
 			<div class="skill-row">
-				<img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/HLB_Logo_Icon_Blue.png/220px-HLB_Logo_Icon_Blue.png" alt="Skills-img">
+				<!--				<img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/HLB_Logo_Icon_Blue.png/220px-HLB_Logo_Icon_Blue.png" alt="Skills-img">-->
 				<h3>HLB INTERNATIONAL ACCOUNTANTS</h3>
 				<p>Assistant Manager Accounting and BookKeeping</p>
 				<p>From July 2014 to Present</p>
@@ -73,7 +84,7 @@
 				</ul>
 			</div>
 			<div class="skill-row">
-				<img class="skill-img2" src="Images/paper.png" alt="Accounting-img">
+				<!--				<img class="skill-img2" src="Images/paper.png" alt="Accounting-img">-->
 				<h3>Triton Egypt Ltd.</h3>
 				<p>Assistant Accounts & Operations</p>
 				<p>From May 2011 — July 2013</p>
@@ -95,7 +106,8 @@
 				</ul>
 			</div>
 		</div>
-		<hr>
+
+		<!--
 		<div class="Personal-information">
 			<h2>Personal Information</h2>
 			<table cellspacing="10">
@@ -113,45 +125,65 @@
 				</tr>
 			</table>
 		</div>
-		<hr>
-		<div class="majorClients">
-		<h2>Major Clients</h2>
-			<table cellspacing="10">
-<!--
-				<tr>
-					<td><img class="clientLogos" src="Images/dsi2.png" alt="DSI Logo"></td>
-					<td><h3>Dywidag Systems International - Saudi Arabia</h3></td>
-				</tr>
 -->
-				<tr>
-					<td><img class="clientLogos" src="https://www.ictr.gr/img/salfo_logo.png" alt="Salfo Logo"></td>
-					<td><h5>SALFO and Associates Saudi Arabia</h5></td>
-				</tr>
-				<tr>
-					<td><img class="clientLogos" src="https://www.ngena.net/wp-content/uploads/comarch_color.svg" alt="Comarch Logo"></td>
-					<td><h5>COMARCH Saudi Arabia LLC.</h5></td>
-				</tr>
-			</table>
+
+		<div class="majorClients">
+			<h2>MAJOR CLIENTS</h2>
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="Images/dsi2.png" alt="First slide">
+						<h5>Dywidag Systems International - Saudi Arabia</h5>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="https://www.ictr.gr/img/salfo_logo.png" alt="Second slide">
+						<h5>SALFO and Associates Saudi Arabia</h5>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="https://www.ngena.net/wp-content/uploads/comarch_color.svg" alt="Third slide">
+						<h5>COMARCH Saudi Arabia LLC.</h5>
+
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="https://lh3.googleusercontent.com/proxy/BqaHwX0w7DLjAz6B0i4dBijBcmaul3a8vcDn6nV1Aft6SnoushzfvRKeOrXU70DFXQvFbs9tkjnVe6yFyROAC2NdAw" alt="Third slide">
+						<h5>COLSA Global Arabia</h5>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="https://psshow.co.uk/wp-content/uploads/2018/01/1200px-CGI_logo.svg_.png" alt="Third slide">
+						<h5>CGI IT UK Ltd.</h5>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
 		</div>
-		<hr>
 		<div class="contact-me" id="C4">
-			<h2>Get In Touch</h2>
+			<h2>GET IN TOUCH</h2>
 			<h3>For any job opportunities, please get in touch</h3>
 			<p>For directly contacting me please click on CONTACT ME below and drop me an e-mail, looking forward to hear from you!.</p>
-			<a class="btn btn-secondary btn-lg" href="mailto:m.baghdady6588@gmail.com">CONTACT ME</a>
+			<a class="btn btn-secondary btn-lg" href="mailto:m.baghdady6588@gmail.com"><i class="fas fa-address-card"></i> CONTACT ME</a>
 		</div>
 	</div>
 
 
-	<div class="navigation navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-	<div class="navbar-nav">
-		<a class="nav-item nav-link" href="https://www.linkedin.com/in/mohamed-baghdady-614a3258">LinkedIn</a>
-		<a class="nav-item nav-link" href="https://twitter.com/Mohamed85195394?s=09">Twitter</a>
-		<a class="nav-item nav-link" href="https://www.internationalaccountants.sa">Current Employer</a>
-	</div></div>
-	<div class="brand">© 2020 MYB Corporation.
+	<div class="navigation navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="https://www.linkedin.com/in/mohamed-baghdady-614a3258"><i class="fab fa-linkedin"></i></a>
+			<a class="nav-item nav-link" href="https://twitter.com/Mohamed85195394?s=09"><i class="fab fa-twitter-square"></i></a>
+			<a class="nav-item nav-link" href="https://twitter.com/Mohamed85195394?s=09"><i class="fab fa-facebook-square"></i></a>
+			<a class="nav-item nav-link" href="https://twitter.com/Mohamed85195394?s=09"><i class="fab fa-instagram-square"></i></a>
 		</div>
-	
+	</div>
+
+	<div class="brand">© 2020 MYB Corporation.
+	</div>
+
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
