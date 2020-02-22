@@ -32,9 +32,7 @@ body {
 .profile {
 	padding: 5% 0;
 }
-.profile h2 {
-	font-weight: bold;
-}
+
 .personal-paragraph {
 	margin: auto;
 	line-height: 2;
@@ -74,10 +72,7 @@ body {
 	padding: 20px;
 	color: #27496d;
 }
-.majorClients h2{
-	font-weight: bold;
-	padding-bottom: 30px;
-}
+
 .carousel-item img {
 	height: 150px;
 	width: auto;
@@ -85,6 +80,7 @@ body {
 }
 .carousel-inner {
 	padding: 0 20%;
+	padding-bottom: 30px;
 }
 
 /*************************Get in touch******************************/
@@ -94,9 +90,10 @@ body {
 	color: white;
 }
 
-.contact-me h2 {
+h2 {
 	font-weight: bold;
 }
+
 .fab {
 	font-size: 2rem;
 	padding-top: 0;
@@ -113,7 +110,48 @@ body {
 	color: aliceblue;
 	padding: 20px;
 }
+/**************************Services List***********************************/
+.myServices {
+	text-align: center;
+	margin: 50px 0;
+	padding: 50px 10%;
+	
+}
+.myServices h6 {
+	font-size: 1rem;
+	font-weight: bold;
+}
 
+.myServices .fas {
+	font-size: 4rem;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+	color: #142850;
+}
+
+.myServices .fas:hover {
+	color: #27496d;
+}
+
+/*********************************Accounting Paragraph*************************************/
+
+.accountingSummary {
+	background-color: #27496d;
+	color: white;
+	padding-top: 50px;
+}
+
+.accountingParagraph {
+	padding: 50px 10%;
+	text-align: justify;
+}
+
+.bookkeepingIMG {
+	width: 300px;
+	float: right;
+	margin: 57px 10% 1px 5px;
+}
 
 @media screen and (max-width: 990px) {
 	.personName {
@@ -121,5 +159,8 @@ body {
 	}
 	.pic {
 		text-align: center;
+	}
+	.bookkeepingIMG {
+		width: 200px;
 	}
 }
